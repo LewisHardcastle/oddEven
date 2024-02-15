@@ -1,0 +1,65 @@
+.body {
+  height: 100vh;
+  margin: 0;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.counter-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.counter-header {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.counter-btn {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+  margin: 0;
+  font-size: 70px;
+  cursor: pointer;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.result-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.grid-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+}
+
+.new-value {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+  margin: 0;
+  font-size: 70px;
+  cursor: pointer;
+  color: white;
+  background-color: #4caf50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
